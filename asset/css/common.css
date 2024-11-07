@@ -1,0 +1,186 @@
+:root {
+  --grayscale-50: #F6F6F6;
+  --grayscale-100: #E7E7E7;
+  --grayscale-200: #D1D1D1;
+  --grayscale-300: #B0B0B0;
+  --grayscale-400: #888888;
+  --grayscale-500: #6D6D6D;
+  --grayscale-600: #5D5D5D;
+  --grayscale-700: #4F4F4F;
+  --grayscale-800: #3F3F3F;
+  --grayscale-900: #2F2F2F;
+  --grayscale-950: #1F1F1F;
+
+  --primary-50: #FFF7ED;
+  --primary-100: #FFECD5;
+  --primary-200: #FED5AA;
+  --primary-300: #FDB773;
+  --primary-400: #FB8F3C;
+  --primary-500: #F96F16;
+  --primary-600: #EA540C;
+  --primary-700: #C23E0C;
+  --primary-800: #9A3212;
+  --primary-900: #7C2B12;
+  --primary-950: #431307;
+
+  --point-50: #FFF2F1;
+  --point-100: #FFE2E1;
+  --point-200: #FFCAC7;
+  --point-300: #FFA5A0;
+  --point-400: #FF746D;
+  --point-500: #F8443B;
+  --point-600: #E5271D;
+  --point-700: #C11C14;
+  --point-800: #A01B14;
+  --point-900: #841D18;
+  --point-950: #480A07;
+}
+
+
+
+body {
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap {
+  width: 39rem;
+  height: 84.4rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+main {
+  height: 73.2rem;
+  overflow-y: scroll;
+}
+main::-webkit-scrollbar {display: none;}
+
+/* 상단 네비게이션바 */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  padding: 0 2rem;
+}
+.left_wrap {
+  display: flex;
+  height: 100%;
+  gap: 1rem;
+  align-items: center;
+}
+.left_wrap a{
+  display: block;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+}
+header h1 a {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+header h1 img{
+  vertical-align: center;
+  width: 100%;
+}
+
+.button_wrap {
+  display: flex;
+  gap: 1.2rem;
+}
+
+
+/* 하단 네비게이션바 */
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5.2rem;
+  background-color: white;
+  overflow: hidden;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul a {
+  display: block;
+  height: 100%;
+}
+
+.comment_write_wrap {
+  padding: 0.8rem 1rem;
+}
+.comment_write {
+  width: 100%;
+  height: 3.6rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: var(--grayscale-50);
+  border-radius: 0.8rem;
+  padding: 0 2rem;
+}
+.comment_write input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: transparent;
+}
+/* swiper css 공통 */
+.swiper .swiper-pagination-bullet{
+  background-color: var(--grayscale-900);
+}
+
+/* 섹션 공통 */
+.section .title_wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+  align-items: center;
+}
+.section .title_wrap h2{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.section .title_wrap button{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grayscale-400);
+  margin-right: 2rem;
+}
+.section .wrap2{
+  margin-left: 20px;
+}
+
+/* 섹션2 공통 */
+.section2 .box{
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 6.8rem;
+  border-radius: 8px;
+}
+.section2 .box p{
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.section2 .box .first p{
+  font-size: 18px;
+}
+

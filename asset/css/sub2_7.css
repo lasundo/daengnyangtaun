@@ -1,0 +1,142 @@
+.dog_header{
+  display: flex;
+  justify-content: center;
+}
+.title_wrap{
+  margin-left: 20px;
+}
+.title_wrap h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.title_wrap p{
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--grayscale-900);
+}
+.title_wrap .flex{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.btn_flex{
+  display: flex;
+  justify-content: space-between;  
+  margin-top: 20px;
+  margin-right: 22px;
+}
+.write{
+  width: 60px;
+  height: 26px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: var(--primary-600);
+}
+hr{
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 12px;
+  border: 1px solid #d9d9d9;
+}
+.box_wrap{
+  margin-top: 12px;
+}
+.box{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 72px;
+  border-radius: 8px;
+  background-color: var(--primary-50);
+}
+.box_flex{
+  display: flex;
+  justify-content: space-between;
+}
+.box_flex h3{
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 9px;
+  padding-left: 16px;
+}
+.box_flex p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grayscale-700);
+  margin-top: 9px;
+  padding-right: 19px;
+}
+.text_box{
+  display: flex;
+  width: 318px;
+  height: 30px;
+  overflow: hidden;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+.more_flex{
+  display: flex;
+  justify-content: center;
+}
+.more{
+  font-size: 12px;
+  font-weight: 400;
+}
+.last{
+  margin-top: 30px;
+}
+.notice_wrap{
+  margin-top: 76px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.notice_wrap h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.notice_wrap p{
+  font-size: 12px;
+  font-weight: 400;
+}
+.notice_wrap button{
+  width: 116px;
+  height: 26px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: var(--primary-600);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.all_mem{
+  margin-top: 16px;
+}
+.mem_wrap{
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+.mini_title{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.mem_text .mem_title{
+  font-size: 13px;
+  font-weight: 500;
+}
+.flex_wrap{
+  display: flex;
+  gap: 10px;
+}
+.introduce{
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+nav{
+  display: none;
+}

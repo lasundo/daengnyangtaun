@@ -1,0 +1,71 @@
+.section1 {
+    width: 100%;
+}
+.post {
+    display: block;
+}
+.post_wrap {
+    margin: 1rem 2rem;
+}
+.post_wrap .post:first-child {
+    border-top: 1px solid var(--grayscale-200);
+}
+.post_wrap .post {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 2.6rem 0;
+    border-bottom: 1px solid var(--grayscale-200);
+}
+.post_wrap .post span {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.post_wrap .post p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.post_wrap .post p.content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.post_wrap .post .gray_text_wrap {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.post_wrap .post .gray_line {
+    width: 0.1rem;
+    height: 1.2rem;
+    background-color: var(--grayscale-300);
+}
+.post_wrap .post p.gray_text {
+    color: var(--grayscale-300);
+}
+.post_wrap .post .post_title_wrap {
+    display: flex;
+    gap: 0.4rem;
+}
+.post_title_wrap span{
+    margin-top: 6px;
+}
+.post_wrap .post .post_title_wrap .gray_title {
+    color: var(--grayscale-600);
+}
+
+
+.writing {
+    display: block;
+    position: absolute;
+    bottom: 7rem;
+    right: 2rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--primary-400);
+}
+.writing img {
+    width: 2rem;
+    height: 2rem;
+}

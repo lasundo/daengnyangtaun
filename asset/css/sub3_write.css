@@ -1,0 +1,60 @@
+.section1 {
+    width: 100%;
+    padding: 0 2rem;
+}
+.left_wrap h1 a{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.button_wrap button{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.section1 .write_wrap {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.section1 .write_wrap .title{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--grayscale-200);
+}
+.section1 .write_wrap .title input {
+    border: 0;
+    width: 100%;
+}
+.section1 .write_wrap .title #title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--grayscale-600);
+}
+.section1 .write_wrap .content {
+    height: 56.4rem;
+}
+.section1 .write_wrap .content textarea {
+    border: 0;
+}
+.section1 .write_wrap .content #content{
+    font-size: 1.4rem;
+    color: var(--grayscale-400);
+    font-weight: 400;
+    font-family: 'Pretendard';
+    width: 100%;
+    height: 100%;
+}
+.section1 .write_wrap .rule p {
+    font-size: 1.3rem;
+    color: var(--grayscale-400);
+    font-weight: 400;
+}
+
+.camera_vote_wrap {
+    position: absolute;
+    bottom: 5.2rem;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    padding: 1rem 2rem;
+}

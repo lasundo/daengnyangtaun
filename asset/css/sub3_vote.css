@@ -1,0 +1,101 @@
+.section1 {
+    width: 100%;
+    padding: 0 2rem;
+}
+.left_wrap h1 a{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.vote_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.vote_wrap p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--grayscale-400);
+}
+.vote_wrap .content_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.vote_wrap .content_wrap input,
+.vote_wrap .content_wrap button {
+    border-radius: 0.6rem;
+    border: 1px solid var(--grayscale-200);
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 100%;
+    color: var(--grayscale-600);
+}
+.vote_wrap .content_wrap button {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.vote_wrap .checkbox_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* 기본 체크박스 숨기기 */
+input[type="checkbox"] {
+    display: none; /* 기본 체크박스 숨김 */
+}
+
+/* 체크박스 대체 스타일 */
+.custom-checkbox {
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid var(--grayscale-200); /* 테두리 색상 */
+    border-radius: 50%; /* 동그란 형태 */
+    position: relative;
+    cursor: pointer; /* 커서 모양 변경 */
+    margin-right: 10px; /* 체크박스와 레이블 간 간격 */
+}
+
+/* .custom-checkbox.checked {
+    background-color: #4CAF50; 
+} */
+
+/* 체크 표시용 요소 */
+.checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-400); /* 체크된 상태의 내부 색상 */
+    transform: translate(-50%, -50%) scale(0); /* 처음엔 보이지 않도록 */
+    
+}
+
+/* 체크된 상태의 표시 */
+.custom-checkbox.checked .checkmark {
+    transform: translate(-50%, -50%) scale(1); /* 보이도록 변경 */
+}
+.checkbox {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--grayscale-600);
+    display: flex;
+    align-items: center;
+}
+
+.vote_wrap a {
+    border-radius: 0.6rem;
+    border: 1px solid var(--grayscale-200);
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 100%;
+    color: var(--grayscale-600);
+    display: flex;
+    justify-content: center;
+}
