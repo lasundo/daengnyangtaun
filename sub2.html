@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모임</title>
+    <link rel="shortcut icon" href="./img/fc.ico"> <!-- 임시 파비콘 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />   
+</head>
+<body>
+    <div class="wrap">
+        <!-- 컨텐츠 -->
+        <header>
+            <!-- 내비게이션바 -->
+            <h1><a href="index.html">모임</a></h1>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="mini_box_wrap">
+                    <button type="button" class="mini_box box_2" onclick="location.href='sub2_theme.html'">
+                        <img src="./img/plus_icon.png">
+                        <h3>모임 만들기</h3>                        
+                    </button>   
+                    <div class="mini_box box_1">
+                        <h3>내 모임</h3>
+                        <p>현재 참여중인 모임이 없어요.</p>
+                        <div class="img_wrap">
+                            <img src="./img/dog_and_cat.png">
+                        </div>                        
+                    </div>                                  
+                </div>                 
+            </section>
+            <section class="section2">
+                <div class="title_wrap">
+                    <h2>댕냥타운의 인기 모임을 소개합니다.</h2>
+                </div>                
+                <div class="content content1" width="350px" height="auto" style="cursor: pointer" onclick="location.href='sub2_more.html'">
+                    <img src="./img/pf_img1.png">
+                    <div class="text_wrap">
+                        <h3>강아지와의 산책힐링모임</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>강아지들과 함께 공원에서 산책하며 즐겨보세요!</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>부산광역시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>800 | 모임장(츄츄아빠)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+                <div class="content content2">
+                    <img src="./img/pf_img2.png">
+                    <div class="text_wrap">
+                        <h3>고양이 집사들의 차 한잔 모임</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>집사들이 모여 고양이의 귀여운 일상을 공유해요.</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>서울특별시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>750 | 모임장(냥이사랑)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+                <div class="content content3">
+                    <img src="./img/pf_img3.png">
+                    <div class="text_wrap">
+                        <h3>햄스터와의 소소한 하루</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>햄스터를 사랑하는 사람들이 모여 사육 팁 공유하자!</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>대전광역시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>735 | 모임장(햄토리햐)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+                <div class="content content4">
+                    <img src="./img/pf_img4.png">
+                    <div class="text_wrap">
+                        <h3>댕댕이 훈련 및 놀이모임</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>반려견의 훈련 팁을 서로 공유하며, 함께 즐겨요~</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>경기도 수원시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>700 | 모임장(뭉치랑나랑)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+                <div class="content content5">
+                    <img src="./img/pf_img5.png">
+                    <div class="text_wrap">
+                        <h3>고양이 장난감DIY</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>집에서 손쉽게 만드는 고양이 장난감 같이 만들어요!</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>경기도 파주시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>680 | 모임장(냥냥펀치)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+                <div class="content content6">
+                    <img src="./img/pf_img6.png">
+                    <div class="text_wrap">
+                        <h3>햄스터 핸들링 및 사육법토크</h3>
+                        <div class="under_wrap">
+                            <div class="more_wrap">                                
+                                <P>햄스터 핸들링 방법과 사육 노하우를 공유 해보아요.</P>
+                            </div>
+                            <!-- <div class="spot_wrap">   
+                                <div><img src="./img/spot_icon.png"></div>
+                                <p>울산광역시</p>
+                            </div> -->
+                            <div class="person_wrap">
+                                <div><img src="./img/person_icon.png"></div>
+                                <p>575 | 모임장(torilove)</p>
+                            </div> 
+                        </div>  
+                    </div>                 
+                </div>
+            </section>
+            <section class="section3">
+                <div class="title_wrap">
+                    <h3>나의 관심사에 맞는 모임을 추천합니다.</h3>
+                    <p>나에게 딱 맞는 모임을 찾아볼까요?</p>
+                </div>
+                <div class="hashtag"><p># 강아지</p></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper slide_wrap">
+                        <div class="swiper-slide slide slide1">                        
+                            <img src="./img/slidepic1.png">
+                            <h3>산책마니아</h3>
+                            <P>강아지와 함께 다양한 공원에서 산책해보자!</P>
+                        </div>
+                        <div class="swiper-slide slide slide2">                        
+                            <img src="./img/slidepic2.png">
+                            <h3>묭묭훈련클럽</h3>
+                            <P>훈련의 기본부터 고급 기술까지 같이 배워요.</P>
+                        </div>
+                        <div class="swiper-slide slide slide3">                        
+                            <img src="./img/slidepic3.png">
+                            <h3>수제간식만들기</h3>
+                            <P>건강한 재료로 강아지 간식을 직접 만들자!</P>
+                        </div>
+                        <div class="swiper-slide slide slide4">                        
+                            <img src="./img/slidepic4.png">
+                            <h3>친구만들기</h3>
+                            <P>강아지 친구들과 교류 하며,사회성을 키우자.</P>
+                        </div>
+                    </div>
+                </div> 
+                <div class="hashtag"><p># 고양이</p></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper slide_wrap">
+                        <div class="swiper-slide slide slide1">                        
+                            <img src="./img/slidepic5.png">
+                            <h3>집사들의대화</h3>
+                            <P>집사들이 모여 고양이 관련 정보를 공유해요.</P>
+                        </div>
+                        <div class="swiper-slide slide slide2">                        
+                            <img src="./img/slidepic6.png">
+                            <h3>장난감워크숍</h3>
+                            <P>쉽게 만들 수 있는 고양이 장난감을 제작 해요!</P>
+                        </div>
+                        <div class="swiper-slide slide slide3">                        
+                            <img src="./img/slidepic7.png">
+                            <h3>냥이패션자랑</h3>
+                            <P>귀여운 모습을 담은 사진을 함께 자랑해요.</P>
+                        </div>
+                        <div class="swiper-slide slide slide4">                        
+                            <img src="./img/slidepic8.png">
+                            <h3>펫카페가자</h3>
+                            <P>서로 괜찮은 펫카페를 추천하는 모임이에요~</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="hashtag"><p># 햄스터</p></div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper slide_wrap">
+                        <div class="swiper-slide slide slide1">                        
+                            <img src="./img/slidepic9.png">
+                            <h3>초보가이드</h3>
+                            <P>햄스터를 키우는 분들을 위한 사육 가이드!</P>
+                        </div>
+                        <div class="swiper-slide slide slide2">                        
+                            <img src="./img/slidepic10.png">
+                            <h3>햄스터하우스</h3>
+                            <P>맞춤형 하우스를 만드는 방법을 배워보자!</P>
+                        </div>
+                        <div class="swiper-slide slide slide3">                        
+                            <img src="./img/slidepic11.png">
+                            <h3>햄스터와놀자</h3>
+                            <P>함께 하는 놀이와 교감 방법을 배워보아요~</P>
+                        </div>
+                        <div class="swiper-slide swiper-container slide slide4">                        
+                            <img src="./img/slidepic12.png">
+                            <h3>건강토크</h3>
+                            <P>건강 문제에 대해 논의및 사육 환경 개선하자!</P>
+                        </div>
+                    </div>
+                </div>               
+            </section>
+            
+        </main>
+    <!--하단 고정 탭바-->
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="./img/tab_home.png" alt=""></a></li>
+                <li><a href="sub1.html"><img src="./img/tab_brag.png" alt=""></a></li>
+                <li><a href="sub2.html"><img src="./img/tab_group_on.png" alt=""></a></li>
+                <li><a href="sub3.html"><img src="./img/tab_qna.png" alt=""></a></li>
+                <li><a href="sub4.html"><img src="./img/tab_mypage.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

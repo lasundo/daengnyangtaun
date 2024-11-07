@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내가 작성한 게시글 | 마이페이지</title>
+    <link rel="shortcut icon" href="./img/fc.ico"> <!-- 임시 파비콘 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub4_heart_feed.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 컨텐츠 -->
+        <header>
+            <!-- 내비게이션바 -->
+            <div class="left_wrap">
+                <a href="./sub4.html"><img src="./img/prev.png" alt=""></a>
+                <h1><a href="#">좋아요 누른 피드</a></h1>
+            </div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="article_wrap">
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/feed_profile1.png" alt="">
+                                <div class="user_id">
+                                    <p>rainbow1011</p>
+                                    <p>언제나가을</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/article_img1.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>10</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile2.png" alt="">
+                                <div class="user_id">
+                                    <p>vbnm006</p>
+                                    <p>새로운가족</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img2.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>20</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile3.png" alt="">
+                                <div class="user_id">
+                                    <p>toripapa</p>
+                                    <p>언제나행복한우리집</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img3.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>13</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile4.png" alt="">
+                                <div class="user_id">
+                                    <p>twincat_24</p>
+                                    <p>쌍둥이고양이</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img4.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>16</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile5.png" alt="">
+                                <div class="user_id">
+                                    <p>dexkim96</p>
+                                    <p>제주도</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img5.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>26</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile6.png" alt="">
+                                <div class="user_id">
+                                    <p>eunyoung</p>
+                                    <p>간식먹는냥이</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img6.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>30</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile7.png" alt="">
+                                <div class="user_id">
+                                    <p>catlover92</p>
+                                    <p>한복입은고양이</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img7.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>14</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile8.png" alt="">
+                                <div class="user_id">
+                                    <p>minamom</p>
+                                    <p>냥냥이 일상</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img8.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>22</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>5</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile9.png" alt="">
+                                <div class="user_id">
+                                    <p>hanimim1004</p>
+                                    <p>미소천사 강아지</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img9.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>47</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>10</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile10.png" alt="">
+                                <div class="user_id">
+                                    <p>ssonglove</p>
+                                    <p>쏭이의하루</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img10.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>15</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile11.png" alt="">
+                                <div class="user_id">
+                                    <p>lovely_dog</p>
+                                    <p>목욕하는 댕댕이</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img11.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>30</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>7</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="article_top_wrap">
+                            <div class="user_infor">
+                                <img src="./img/heart_feed_profile12.png" alt="">
+                                <div class="user_id">
+                                    <p>mongiiii</p>
+                                    <p>꿀잠자는 멍멍이</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article_img">
+                            <img src="./img/heart_feed_img12.jpg" alt="">
+                        </div>
+                        <div class="article_content">
+                            <div class="content_button_area">
+                                <div class="content_button">
+                                    <button class="heart"><img src="./img/heart_on_red.png" alt="" class="heart_img">
+                                    </button>
+                                    <p>40</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/talk_icon.png" alt="">
+                                    </button>
+                                    <p>12</p>
+                                </div>
+                                <div class="content_button">
+                                    <button><img src="./img/send_icon.png" alt="">
+                                    </button>
+                                    <p>0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <!--하단 고정 탭바-->
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="./img/tab_home.png" alt=""></a></li>
+                <li><a href="sub1.html"><img src="./img/tab_brag.png" alt=""></a></li>
+                <li><a href="sub2.html"><img src="./img/tab_group.png" alt=""></a></li>
+                <li><a href="sub3.html"><img src="./img/tab_qna.png" alt=""></a></li>
+                <li><a href="sub4.html"><img src="./img/tab_mypage_on.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="./js/written.js"></script>
+</body>
+</html>

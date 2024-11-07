@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내가 작성한 댓글 | 마이페이지</title>
+    <link rel="shortcut icon" href="./img/fc.ico"> <!-- 임시 파비콘 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/sub4_written_comment.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js" integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 컨텐츠 -->
+        <header>
+            <!-- 내비게이션바 -->
+            <div class="left_wrap">
+                <a href="./sub4.html"><img src="./img/prev.png" alt=""></a>
+                <h1><a href="#">내가 작성한 게시글</a></h1>
+            </div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="select_wrap">
+                    <label class="custom-checkbox"><input type="checkbox" class="checkbox select-all"><span class="checkmark"></span><span class="select-all-text">전체선택</span></label>
+                    <button>선택삭제</button>
+                </div>
+                <div class="list_wrap">
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">너무 귀여워요! 반려견 이름이 뭐에요?"</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">와,털이 정말 부드러워보여요! 어떻게 관리하세요?</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">사진 속 미소가 너무 사랑스럽네요! 행복해보여요!</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">저희 강아지도 이 장난감 정말 좋아해요! 같이 놀면 재밌어요</p>
+                                <p class="date">2024.10.01</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">이 옷 너무 잘 어울려요! 어디서 구매하셨나요?</p>
+                                <p class="date">2024.09.28</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">정말 건강해 보여요! 비결이 궁금해요~~~~!</p>
+                                <p class="date">2024.09.28</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">산책 코스가 정말 멋지네요. 어디로 다니세요??^^</p>
+                                <p class="date">2024.09.28</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">표정이 너무 귀여워서 심쿵했어요!</p>
+                                <p class="date">2024.09.28</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">이 사진 완전 화보같아요!카메라로 찍으신건가요?</p>
+                                <p class="date">2024.09.20</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">너무 귀여워요! 간식은 어떤걸 주시나요?</p>
+                                <p class="date">2024.09.20</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">너무 귀여워요! 사료는 어떤걸 주시나요?</p>
+                                <p class="date">2024.09.20</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">정말 멋진 포즈네요! 사진 찍기 쉽지 않으셨을텐데 대단해요</p>
+                                <p class="date">2024.09.18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">반려견의 눈빛이 너무 따뜻해 보여요. 마음이 사르르 녹아내립니다.</p>
+                                <p class="date">2024.09.18</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">이거 정말 웃기네요 ㅎㅎ 우리 강아지도 비슷한 행동을 하곤해요</p>
+                                <p class="date">2024.09.15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">강아지가 정말 행복해 보여요. 사랑을 많이 받은게 보여요.</p>
+                                <p class="date">2024.09.15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">정말 활기차 보이네요! 에너지가 넘치는 것 같아요!</p>
+                                <p class="date">2024.09.15</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">표정이 정말 진지하네요 ㅋㅋ 완전 귀여운 반전매력</p>
+                                <p class="date">2024.09.10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">사진 속에서 반려견이 정말 똑똑해 보이네요. 훈련을 잘 받았나봐요.</p>
+                                <p class="date">2024.09.10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">강아지의 털 색이 정말 예쁘네요. 특히 이 사진에서 더 그래요!</p>
+                                <p class="date">2024.09.05</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="checkbox_wrap">
+                            <label class="custom-checkbox"><input type="checkbox" class="checkbox"><span class="checkmark"></span></label>
+                        </div>
+                        <div class="list_content">
+                            <div class="list_icon">
+                                <img src="./img/comment_primary.png" alt="">
+                            </div>
+                            <div class="list_text_wrap">
+                                <p class="text_content">이 순간을 포착하신 게 대단하네요. 너무 귀엽고 사랑스러워요...</p>
+                                <p class="date">2024.09.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--하단 고정 탭바-->
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="./img/tab_home.png" alt=""></a></li>
+                <li><a href="sub1.html"><img src="./img/tab_brag.png" alt=""></a></li>
+                <li><a href="sub2.html"><img src="./img/tab_group.png" alt=""></a></li>
+                <li><a href="sub3.html"><img src="./img/tab_qna.png" alt=""></a></li>
+                <li><a href="sub4.html"><img src="./img/tab_mypage_on.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="./js/written.js"></script>
+</body>
+</html>
