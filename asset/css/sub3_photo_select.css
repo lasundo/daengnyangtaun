@@ -1,0 +1,38 @@
+.section1 {
+    width: 100%;
+}
+
+.left_wrap h1 a{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.button_wrap button{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.photo_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.photo {
+    position: relative;
+    width: 13rem;
+}
+.photo_img {
+    width: 100%;
+}
+.photo_img img {
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/overlay.png);
+    display: none;
+}

@@ -1,0 +1,111 @@
+.section1 {
+    width: 100%;
+    padding: 0 2rem 5rem;
+}
+.left_wrap h1 a{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.section1 .select_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.section1 .select_wrap .checkbox {
+    vertical-align: middle;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+.section1 .select_wrap .checkbox:checked {
+    background-color: transparent;
+}
+
+/* 기본 체크박스 숨기기 */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+/* 체크 표시를 위한 스타일 */
+.custom-checkbox .checkmark {
+    vertical-align: middle;
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 2px solid var(--grayscale-400); /* 체크박스 테두리 색상 */
+    border-radius: 4px; /* 모서리 둥글기 */
+    position: relative;
+    cursor: pointer;
+    margin-right: 0.8rem;
+}
+
+/* 체크박스가 체크되었을 때 */
+/* .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+
+} */
+
+
+/* 체크 표시 추가 (체크박스가 체크된 상태일 때) */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6px;
+    height: 10px;
+    border: solid var(--grayscale-400); /* 체크 표시 색상 */
+    border-width: 0 3px 3px 0;
+    transform: translate(-50%,-60%) rotate(45deg);
+    border-radius: 0.2rem;
+}
+
+.select-all-text {
+    margin-left: 0.8rem;
+}
+
+.list_wrap {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.list_wrap .list {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.list_wrap .list_content {
+    background-color: var(--grayscale-50);
+    border-radius: 0.6rem;
+    display: flex;
+    gap: 1.4rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+.list_wrap .list_content .list_icon {
+    display: flex;
+    align-items: center;
+    margin-left: 0.7rem;
+}
+.list_wrap .list_content .list_icon img {
+    width: 1.8rem;
+    height: 1.8rem;
+    max-width: none;
+}
+.list_wrap .list_content .list_text_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 24.1rem;
+    font-size: 1.2rem;
+}
+.list_wrap .list_content .list_text_wrap .text_content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list_wrap .list_content .list_text_wrap .date {
+    font-size: 1rem;
+    color: var(--grayscale-400);
+}

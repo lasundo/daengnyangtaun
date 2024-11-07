@@ -1,0 +1,30 @@
+.section1 {
+    width: 100%;
+    padding: 0 2rem 5rem;
+}
+.left_wrap h1 a{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.parti_content a{
+    font-size: 12px;
+    color: var(--grayscale-400);
+}
+
+.parti_contest_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.parti_contest_wrap .parti_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    background-color: var(--grayscale-50);
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+}
+.parti_contest_wrap .parti_content .text_area,
+.parti_contest_wrap .parti_content a {
+    margin-top: 1rem;
+}

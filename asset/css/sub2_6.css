@@ -1,0 +1,98 @@
+.dog_header{
+  display: flex;
+  justify-content: center;
+}
+.title_wrap{
+  margin-left: 20px;
+}
+.title_wrap h3{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.title_wrap p{
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--grayscale-900);
+}
+.title_wrap .flex{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.btn_flex{
+  display: flex;
+  position: absolute;
+  right: 22px;
+  top: 23%;
+}
+.write{
+  width: 60px;
+  height: 26px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: var(--primary-600);
+}
+hr{
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 12px;
+  border: 1px solid #d9d9d9;
+}
+.last{
+  margin-top: 96px;
+}
+.notice_wrap{
+  text-align: center;
+  margin-top: 76px;
+}
+.notice_wrap h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.notice_wrap p{
+  font-size: 12px;
+  font-weight: 400;
+}
+.notice_wrap button{
+  width: 116px;
+  height: 26px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: var(--primary-600);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.all_mem{
+  margin-top: 16px;
+}
+.mem_wrap{
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+.mini_title{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.mem_text .mem_title{
+  font-size: 13px;
+  font-weight: 500;
+}
+.flex_wrap{
+  display: flex;
+  gap: 10px;
+}
+.introduce{
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+nav{
+  display: none;
+}
